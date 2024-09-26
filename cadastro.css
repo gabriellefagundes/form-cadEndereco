@@ -1,0 +1,15 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    place-content: center;
+}
+form{
+    flex-direction: column;
+    display: flex;
+}
+ 
+input {
+    flex-basis: 50px;
+   
+}
