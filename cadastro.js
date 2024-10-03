@@ -1,4 +1,4 @@
-'use strict'; // Ativando o modo restrito para evitar erros e deixar o código mais seguro
+'use strict'; // Ativa o modo restrito para evitar erros e deixar o código mais seguro
 
 /* Fazendo o consumo da API ViaCEP - https://viacep.com.br/ */
 
@@ -14,7 +14,7 @@ const limparFormulario = () => {
 }
 
 //
-// Essa função vai preencher os campos do formulário com as informações que a API retornar
+// Essa função preenche os campos do formulário com as informações que a API retornar
 // Ela recebe o objeto 'endereco' com os dados do CEP e preenche os campos corretos
 //
 const preencherFormulario = (endereco) => {
@@ -25,7 +25,7 @@ const preencherFormulario = (endereco) => {
 }
 
 //
-// Aqui eu criei uma função que testa se o valor digitado pelo usuário é só composto por números, usando Regex
+// Criei uma função que testa se o valor digitado pelo usuário é só composto por números, usando Regex
 //
 const eNumero = (numero) => /^[0-9]+$/.test(numero);
 
