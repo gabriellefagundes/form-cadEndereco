@@ -42,7 +42,7 @@ const pesquisarCep = async() => {
     limparFormulario();  // Limpa os campos antes de fazer a pesquisa
 
     // Monta a URL da API com o CEP informado no formulário
-    const url = `http://viacep.com.br/ws/${cep.value}/json/`;
+    const url = `https://viacep.com.br/ws/${cep.value}/json/`;
 
     // Verifica se o CEP digitado tem o formato correto
     if (cepValido(cep.value)) {
